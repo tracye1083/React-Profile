@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    padding: 2;
+    margin: 2;
+    scroll-behavior: smooth;
+}
+
+
+/* CUSTOM COLORS */
+
+:root {
+    --blue-1: #0fb0e6a9;
+    --white: #fff;
+}
+
+
+/* NAVBARS */
+
+
+/* fixed button that allows users to return to top of the page */
+
+.home {
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+
+/* navbar styling */
+
+.nav-item {
+    font-family: "Spectral SC", sans-serif;
+    font-size: 1.55rem;
+}
+
+.navbar-brand {
+    font-family: "Spectral SC", sans-serif;
+    font-size: 3rem;
+}
+
+
+/* BODY  */
+
+body {
+    font-family: "Fauna One", sans-serif;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+/* HEADERS */
+
+h1,
+h2,
+h4,
+h5,
+footer {
+    font-family: "Spectral SC", sans-serif;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 3.5rem;
+    padding-top: .5em;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding-top: 150px;
+}
+
+
+/* ABOUT ME */
+
+.contain-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+.img-me {
+    flex-basis: 70%;
+    padding-left: 12px;
+}
+
+.img-me .img-fluid {
+    border-radius: 0 50% 0 50%;
+}
+
+.text-me {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+/* WORK */
+
+.work {
+    padding-bottom: 200px;
+}
+
+.card-img:first-of-type {
+    flex-basis: 425px;
+    max-height: 400px;
+    max-width: 650px;
+}
+
+.card-img {
+    flex-basis: 75%;
+    max-height: 300px;
+    max-width: 200px;
+}
+
+.card-img {
+    object-fit: cover;
+}
+
+.work-img {
+    border: var(--default-indent) solid var(--blue-1);
+    border-radius: var(--default-border-size);
+    position: relative;
+    transition: border-color var(--transition-duration) ease-in-out;
+}
+
+.work-img:hover::after {
+    opacity: 0;
+}
+
+.work-img .card-img {
+    width: 100%;
+}
+
+
+/* Cards have title labels to identify each project and the technologies used */
+
+.work-img .card-title {
+    color: var(--white);
+    border-radius: 0 var(--default-border-size) var(--default-border-size) 0;
+    background-color: var(--blue-1);
+    font-size: 1.5rem;
+    line-height: 1.1;
+    font-family: "Spectral SC", sans-serif;
+    font-weight: 200;
+    padding: var(--default-indent);
+    position: absolute;
+    left: 0;
+    bottom: 12%;
+    z-index: 2;
+    transition: background-color var(--transition-duration) ease-in-out;
+}
+
+.work-img:hover .card-title {
+    background-color: var(--blue-1);
+}
+
+.work-img .tags {
+    display: block;
+    font-size: 1rem;
+    margin: var(--default-indent) 0 0 0;
+}
+
+/* SKILLS */
+
+.skill {
+    padding-bottom: 475px;
+}
+
+.skill img {
+    width: 64px;
+    height: 64px;
+    padding: 2px;
+}
+
+/* CONTACT ME  */
+
+.contact img {
+    width: 64px;
+    height: 64px;
+    padding: 2px;
+}
+
+.hmu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

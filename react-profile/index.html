@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="./Assets/css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Spectral SC&effect=neon|outline|emboss|shadow-multiple' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Fauna One' rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="Assets\images\favicon\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="Assets\images\favicon\favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Assets\images\favicon\favicon-16x16.png">
+    <title>Tracy Angell's Portfolio</title>
+</head>
+
+<body id="home">
+    <header class="header">
+        <!-- Navbar with functionality and responsiveness -->
+        <nav id="navbar" class="navbar navbar-expand-md navbar-light" style="background-color: #0fb0e698;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Angell</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    </ul>
+                    <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Assets/Resume/Angell_Resume.pdf" download target="_blank">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-me">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
+        <!-- brief bio section with headshot -->
+        <section id="about-me" class="me">
+            <h1>About Me</h1>
+            <div class="contain-me">
+                <div class="img-me">
+                    <img src="Assets\images\headshot1.jpg" class="img-fluid" alt="Tracy Angell" />
+                </div>
+                <div class="text-me">
+                    <p>
+                        My name is Tracy Angell. I have recently become interested in startups and learning how to code. I am attending a Coding Bootcamp program through University of New Hampshire to become a Full Stack Web Developer. Once the I have completed the program succesfully
+                        I will be seeking freelance development work, as well as remote positions. However, I am open-minded to other possibilities.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Project work completed with Project Name and technologies used -->
+        <section id="work" class="work">
+            <h1>Work</h1>
+            <div class="row d-flex align-items-center flex-wrap bd-highlight mb-3">
+
+                <div class="col-12 flex-grow-1 bd-highlight card text-white align-items-center">
+                    <a target="_blank" href="https://the-cocktail-code-app.herokuapp.com/">
+                        <figure class="work-img">
+                            <img src="./Assets/images/Projects/CocktailCode.png" class="card-img" alt="Cocktail Code Landing Page" />
+                            <figcaption class="card-title">Cocktail Code<strong class="tags">React, GraphQL, Json Web Token, Apollo</strong>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+
+                <div class="col-4 flex-grow-1 bd-highlight card text-white">
+                    <a target="_blank" href="https://desolate-mountain-07284.herokuapp.com/">
+                        <figure class="work-img">
+                            <img src="./Assets/images/Projects/PupHub.png" class="card-img" alt="Puphub Home Page Thumbnail" />
+                            <figcaption class="card-title">Puphub<strong class="tags">Sass CSS, JS, Handlebars, MySQL</strong>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+
+                <div class="col-4 flex-grow-1 bd-highlight card text-white">
+                    <a target="_blank" href="https://tracye1083.github.io/ConcertCloud/">
+                        <figure class="work-img">
+                            <img src="./Assets/images/Projects/ConcertCloud.png" class="card-img" alt="Concert Cloud Landing Page" />
+                            <figcaption class="card-title">Concert Cloud<strong class="tags">HTML, Bulma CSS, JS, API</strong>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+
+<!-- skills section -->
+        <section id="skills" class="skill">
+            <h1>Skills</h1>
+            <ul class="d-flex justify-content-center hmu">
+                <li>
+                    <img src="./Assets/images/icons/skills/html.png" alt="HTML5 Icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="HTML5" />
+                </li>
+                <li>
+                    <img src="./Assets/images/icons/skills/css.png" alt="CSS3 Icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="CSS3" />
+                </li>
+                <li>
+                    <img src="./Assets/images/icons/skills/JS.png" alt="JS Icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="JS" />
+                </li>
+                <li>
+                    <img src="./Assets/images/icons/skills/bootstrap.png" alt="Bootstrap Icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bootstrap" />
+                </li>
+                <li>
+                    <img src="./Assets/images/icons/skills/Bulma.png" alt="Bulma Icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bulma" />
+                </li>
+                <li>
+                    <img src="./Assets/images/icons/skills/jquery.png" alt="jQuery Icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="jQuery" />
+                </li>
+                <li>
+                    <img src="./Assets/images/icons/skills/git.png" alt="Git Icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Git" />
+                </li>
+                <li>
+                    <img src="./Assets/images/icons/skills/node.png" alt="Node Icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="node.js" />
+                </li>
+                <li>
+                    <img src="./Assets/images/icons/skills/handlebars-js.png" alt="Handlebars Icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Handlebars" />
+                </li>
+                <li>
+                    <img src="./Assets/images/icons/skills/sql.png" alt="SQL Icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="SQL" />
+                </li>
+                <li>
+                    <img src="./Assets/images/icons/skills/mongodb.png" alt="MongoDB Icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="MongoDB" />
+                </li>
+                <li>
+                    <img src="./Assets/images/icons/skills/heroku.png" alt="Heroku Icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Heroku" />
+                </li>
+                <li>
+                    <img src="./Assets/images/icons/skills/react.png" alt="React Icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="React" />
+                </li>
+            </ul>
+        </section>
+
+        <!-- contact me section with Resume. Each icon has hover tooltip to provide context as to what each icon represents -->
+        <section id="contact-me" class="contact">
+            <h1>Contact Me</h1>
+            <ul class="d-flex justify-content-center hmu">
+                <li id="resume">
+                    <a href="./Assets/Resume/Angell_Resume.pdf" download target="_blank"><img src="./Assets/images/icons/resume.png" alt="Resume Icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Resume" /></a>
+                </li>
+                <li>
+                    <a href="tel:5055034455"><img src="./Assets/images/icons/phone.png" alt="Telephone Reciever" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Call Me" /></a>
+                </li>
+                <li>
+                    <a href="mailto:myemail@gmail.com&subject=Your Portfolio Page"><img src="./Assets/images/icons/email.png" alt="Envelope Icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Email Me" /></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/tracye1083"><img src="./Assets/images/icons/github.png" alt="GitHub Logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="GitHub" /></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.linkedin.com/in/tracyangell/"><img src="./Assets/images/icons/linkedin.png" alt="LinkedIn Logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="LinkedIn" /></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://stackoverflow.com/users/15127473/tracy-a"><img src="./Assets/images/icons/stackoverflow.png" alt="StackOverflow Logo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="StackOverflow" /></a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <button class="home" onclick="scrollToTop()"><img src="./Assets/images/icons/home.png" alt="up arrow" width="30rem"
+            height="30rem" />
+    </button>
+    <script>
+        // enable scroll to top button
+        function scrollToTop() {
+            window.scrollTo(0, 0);
+        }
+    </script>
+
+    <footer>
+        <h5 class="text-center">&copy; 2021 Created by Tracy Angell</h5>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
