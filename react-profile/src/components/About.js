@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../assets/images/headshot1.png';
+import avatar from '../assets/images/headshot1.jpg';
 
 const styles = {
     container: {
